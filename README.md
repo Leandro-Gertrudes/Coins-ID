@@ -42,7 +42,7 @@ To learn more about the development process, check the **"How it was made"** fol
 
 **Idioma: Português**
 
-O **Coins ID** é um dispositivo projetado para **auxiliar pessoas com deficiência visual** na identificação de suas moedas. Este protótipo foi desenvolvido como parte do **projeto final** para a conclusão do curso técnico em **Eletroeletrônica**, realizado na instituição **SENAI**, no Brasil, em uma das unidades do estado de São Paulo.
+O **Coins ID** é um dispositivo projetado para **auxiliar pessoas com deficiência visual** na identificação de suas moedas. Este protótipo foi meu TCC do curso técnico em **Eletroeletrônica**, realizado na instituição **SENAI**, no Brasil, em uma das unidades do estado de São Paulo.
 
 ### 🎯 Objetivo e Funcionamento
 
