@@ -18,10 +18,11 @@ For better understanding, let's divide the operation into three parts.
 A potentiometer is an electronic component that adjusts the electric current based on its resistance. You can adjust its resistance by rotating its axis.  
 We attached a rod to the potentiometer's axis. When the coin passes through the rail, it moves the rod, altering the resistance and electrical signal. The larger the coin's diameter, the higher the rod's elevation, and thus, the electrical current is proportional to the coin's size.
 
-![Potentiometer Rod](image/potenciometro1)  
-The rod is visible inside the circle.  
-![Potentiometer](image/potenciometro2)  
-Potentiometer
+![Potentiometer Rod](image/potenciometro1.png) </br> 
+The rod is visible inside the circle. </br></br>
+
+![Potentiometer](image/potenciometro2.jpg) </br>
+Potentiometer </br>
 
 #### Phototransistor
 
@@ -42,7 +43,7 @@ With these two sensors, we obtain two pieces of information: the **size** of the
 
 Now that we have the **size** and **color** signals, the **PIC** microcontroller comes into action. It is responsible for processing these signals and identifying the coin.
 
-![Microcontroller](image/microcontrolador)
+![Microcontroller](image/microcontrolador.jpg)
 
 The **PIC** [Microcontroller](https://en.wikipedia.org/wiki/Microcontroller) is programmed to receive signals from the sensors and compare them to predefined variables in the code. Each coin has a specific size and color value, which was previously mapped. We did not use a database, but rather simple variables to store these values with a margin of tolerance.  
 Each sensor is connected to a terminal of the microcontroller. In the code, we receive these values as numerical variables, with integer numbers. These numbers are proportional to the electrical current passing through the terminals—if it's strong or weak, the value increases or decreases.  
@@ -69,7 +70,7 @@ I don't exactly remember which component we used, but the ISD-1720 serves the pu
 - Energized terminals represent 1, and non-energized terminals represent 0.
 - For example, the fourth track corresponds to the playback of "50 cents," so to select it, we energize only the third control terminal, making it **001**. If I'm not mistaken, there are 4 pins dedicated to controlling the tracks.
 
-![ISD-1720 Sound Circuit](image/som)
+![ISD-1720 Sound Circuit](image/som.jpg)
 
 ---
 
