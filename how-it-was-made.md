@@ -26,7 +26,7 @@ Potentiometer </br>
 
 #### Phototransistor
 
-![Phototransistor](image/fototransistor)
+![Phototransistor](image/fototransistor.png)
 
 Inside the highlighted circle is the phototransistor, a component that, like the potentiometer, alters the electrical signal. However, it works with exposure to light, changing the signal based on ambient light.  
 Do you know the streetlights? Well, there's something similar to this; this is how the streetlight "knows" when it’s day or night, haha.
