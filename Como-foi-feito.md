@@ -18,14 +18,15 @@ O **Coins ID** começa coletando duas informações essenciais da moeda: **taman
 O potenciômetro é um componente eletrônico que altera a corrente elétrica de acordo com sua resistência,basta girar seu eixo para ajustar a resistência.
 Grudamos uma haste no eixo do potenciômetro, quando a moeda passa pelo trilho, sua haste é movida, alterando a resistência e o sinal elétrico. Quanto maior o raio da moeda, maior a elevação da haste, e por isto, a corrente elétrica é proporcional ao tamanho da moeda.
 
-![haste do Potenciômetro](image/potenciometro1)
-Dentro do circulo podemos ver a haste
-![Potenciômetro](image/potenciometro2)
-Potenciômetro
+![haste do Potenciômetro](image/potenciometro1.png) </br>
+Dentro do circulo podemos ver a haste </br>
 
+![Potenciômetro](image/potenciometro2.jpg) </br>
+Potenciômetro
+</br>
 #### Fototransistor
 
-![fototransistor](image/fototransistor)
+![fototransistor](image/fototransistor.png)
 
 Dentro do círculo destacado está o fototransistor, componente que assim como o potenciômetro, é capaz de alterar o sinal de corrente elétrica.
 Mas sua diferença é que ele trabalha com a exposição à luz, ele altera o sinal de acordo com a luz ambiente.
@@ -45,7 +46,7 @@ Com esses dois sensores, obtemos duas informações: o **tamanho** da moeda e su
 
 Agora que temos os sinais de **tamanho** e **cor**, o [microncontolador](https://pt.wikipedia.org/wiki/Microcontrolador) **PIC** entra em ação. Ele é responsável por processar esses sinais e identificar a moeda.
 
-![microcontrolador](image/microcontrolador)
+![microcontrolador](image/microcontrolador.jpg)
 
 O microcontrolador **PIC** é programado para receber os sinais dos sensores e compará-los com variáveis pré-definidas no código. Cada moeda tem um valor de tamanho e cor específico, que foi mapeado previamente. Não usamos banco de dados, mas sim variáveis simples para armazenar esses valores com uma margem de tolerância.
 Cada sensor é conectado a um terminal do microcontrolador, no código, recebemos estes valores em uma variável numérica, com números inteiros, estes números são proporcionais á corrente elétrica que está passando pelos terminais, se forte ou fraca, o valor aumenta ou diminui.
@@ -72,7 +73,7 @@ Não lembro exatamente qual foi o Componente, mas o ISD-1720 cumpre o papel ent�
 - os terminais energizados representam 1 e os não energizados representam 0
 - Por exemplo, a quarta faixa corresponde à reprodução de "50 centavos", então para seleciona-la, energizamos apenas o terceiro terminal de controle, fazendo **001**. Se nao estou enganado, sou 4 pinos destinados ao controle das faixas.
 
-![Circuito de Som ISD-1720](image/som)
+![Circuito de Som ISD-1720](image/som.jpg)
 
 ---
 
